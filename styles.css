@@ -1,0 +1,95 @@
+body {
+    margin: 0px 0px 10px 0px;
+}
+
+#header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 400px;
+    background-image: url("https://www.civitatis.com/f/cuba/cienfuegos/cienfuegos.jpg");
+    background-size: cover;
+    margin-bottom: 30px;
+}
+
+#title-homp, #sub-title-homp {
+    padding: 10px 15px;
+    border-radius: 10px;
+    color: #ced4da;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+#title-homp {
+    margin-bottom: 10px;
+    background: #457b9d;
+}
+
+#sub-title-homp {
+    margin-top: 0px;
+    background: #1d3557;
+    font-weight: normal;
+    width: 350px;
+    text-align: center;
+}
+
+.title-main-section {
+    text-align: center;
+    color: #212529;
+    font-weight: bold;
+    font-family:Arial, Helvetica, sans-serif;
+    margin-bottom: 50px;
+}
+
+.sections {
+    width: 300px;
+    height: 250px;
+    color: #212529;
+    font-family:Arial, Helvetica, sans-serif; 
+    background: #dee2e6;
+    border-radius: 15px;
+    padding: 15px 20px;
+    box-shadow: 5px 2px 15px grey;
+}
+
+#main {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    text-align: center;
+}
+
+.img-sections {
+    width: 120px;
+    border-radius: 50%;
+}
+
+.text-sections {
+    font-weight: normal;
+}
+
+#footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 500px;
+    margin: 150px auto 20px auto;
+    background: #a8dadc; 
+    text-align: center;
+    padding: 20px;
+    border-bottom: 10px solid #457b9d;
+    border-radius: 10px;
+}
+
+#text-footer {
+    height: 290px;
+    width: 200px; 
+    font-family:Arial, Helvetica, sans-serif;
+    color: #212529;
+}
+
+#text {
+    font-weight: normal;
+}
+
